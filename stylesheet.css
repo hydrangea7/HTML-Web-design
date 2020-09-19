@@ -1,0 +1,271 @@
+* {
+  box-sizing：border-box;
+}
+
+本文 {
+  マージン：0 ;
+  font-family：「ひらぎの角ゴシックProN」 ;
+}
+
+{
+  text-decoration：なし。
+}
+
+。コンテナ {
+  幅：100 ％ ;
+  パディング：0  15 px ;
+  マージン：0自動;
+}
+
+。トップラッパー {
+  パディング：180 px  0  100 px  0 ;
+  background-image：url（top.png）;
+  background-size：表紙;
+  色：白;
+  text-align：center;
+}
+
+。トップラッパー h1 {
+  不透明度：0.7 ;
+  font-size：45 px ;
+  letter-spacing：5 px ;
+}
+
+。トップラッパー p {
+  不透明度：0.7 ;
+  font-size：16 px ;
+  margin-bottom：40 px ;
+}
+
+。btn-wrapper {
+  text-align：center;
+}
+
+。btn-wrapper  p {
+  margin-bottom：20 px ;
+}
+
+。サインアップ {
+  background-color：＃ 239b76 ;
+}
+
+。facebook {
+  background-color：＃ 3b5998 ;
+  margin-right：10 px ;
+}
+
+。twitter {
+  background-color：＃ 55acee ;
+}
+
+。btn {
+  パディング：8 px  24 px ;
+  色：白;
+  表示：インラインブロック;
+  不透明度：0.8 ;
+  border-radius：4 px ;
+  text-align：center;
+}
+
+。btn：ホバー {
+  不透明度：1 ;
+}
+
+。fa {
+  margin-right：5 px ;
+}
+
+ヘッダー {
+  高さ：65 ピクセル ;
+  幅：100 ％ ;
+  背景色：RGBA（34 、49 、52 、0.9）。
+  位置：固定 ;
+  上：0;
+  z-index：10;
+}
+
+。ロゴ {
+  幅：124 px ;
+  margin-top：20 px ;
+}
+
+。ヘッダー左 {
+  float：左;
+}
+
+。header-right {
+  float：右;
+  margin-right：-25px;
+}
+
+。header-right  a {
+  line-height：65 px ;
+  パディング：0  25 px ;
+  色：白;
+  表示：ブロック;
+  float：左;
+  遷移：すべて0.5 秒。
+}
+
+。header-right  a：hover {
+  背景色：RGBA（255 、255 、255 、0.3）。
+}
+
+。レッスンラッパー {
+  高さ：580 px ;
+  padding-bottom：80 px ;
+  左詰め：5 ％ ;
+  padding-right：5 ％ ;
+  background-color：＃ f7f7f7 ;
+  text-align：center;
+}
+
+。見出し {
+  padding-top：80 px ;
+  padding-bottom：50 px ;
+  色：＃ 5f5d60 ;
+}
+
+。見出し h2 {
+  font-weight：通常;
+}
+
+。レッスン {
+  float：左;
+  幅：25 ％ ;
+}
+
+。レッスンアイコン {
+  位置：相対;
+}
+
+。レッスンアイコン p {
+  位置：絶対;
+  上：37 ％ ;
+  幅：100 ％ ;
+  色：白;
+}
+
+。text-contents {
+  幅：80 ％ ;
+  表示：インラインブロック;
+  margin-top：15 px ;
+  font-size：13 px ;
+  色：＃ b3aeb5 ;
+}
+
+。見出し h3 {
+  font-weight：通常;
+}
+
+。メッセージラッパー {
+  border-bottom：1つのピクセル固体＃1 EEE。
+  padding-bottom：80 px ;
+  text-align：center;
+}
+
+。メッセージ {
+  パディング：15 ピクセル  40 ピクセル ;
+  background-color：＃ 5dca88 ;
+  カーソル：ポインタ;
+  box-shadow：0 px  7 px  ＃ 1a7940 ;
+}
+
+。メッセージ：アクティブ {
+  位置：相対;
+  top：7 px ;
+  ボックスシャドウ：なし;
+}
+
+フッター img {
+  幅：125 px ;
+}
+
+フッター p {
+  色：＃ b3aeb5 ;
+  font-size：12 px ;
+}
+
+フッター {
+  padding-top：30 px ;
+  padding-bottom：20 px ;
+}
+
+。メニューアイコン {
+  色：白;
+  float：右;
+  font-size：25 px ;
+  パディング：21 px  0 ;
+  表示：なし。
+}
+
+。クリア {
+  クリア：左。
+}
+
+@media all and（max-width：1000 px）{
+  。レッスン {
+    幅：50 ％ ;
+    margin-bottom：50 px ;
+  }
+
+  。レッスンラッパー {
+    高さ：990 px ;
+  }
+
+  フッター {
+    text-align：center;
+  }
+}
+
+@media all and（max-width：750 px）{
+  。トップラッパー h1 {
+    font-size：32 px ;
+  }
+
+  。見出し h2 {
+    font-size：20 px ;
+  }
+}
+
+@media all and（max-width：670 px）{
+  。header-right {
+    表示：なし。
+  }
+
+  。メニューアイコン {
+    表示：ブロック;
+  }
+
+  。トップラッパー。btn {
+    幅：100 ％ ;
+  }
+
+  。twitter {
+    margin-top：10 px ;
+  }
+
+  。トップラッパー {
+    text-align：左;
+  }
+
+  。トップラッパー h1 {
+    font-size：24 px ;
+  }
+
+  。トップラッパー p {
+    font-size：14 px ;
+  }
+
+  。レッスン {
+    幅：100 ％ ;
+  }
+
+  。レッスンラッパー {
+    高さ：1700 px ;
+  }
+
+  。メッセージラッパー。btn {
+    幅：100 ％ ;
+  }
+}
